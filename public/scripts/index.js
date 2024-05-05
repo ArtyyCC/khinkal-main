@@ -9,7 +9,9 @@ buttonArray.forEach((element) => {
         try {
             const response = await fetch("http://localhost:3000/search", {
                 method: "POST",
-                body: button.value
+                body: {
+                    category:button.value
+                }
             })
             const data = await response.json()
             const imageWrapper = document.getElementById("imageWrapper")
