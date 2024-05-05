@@ -18,8 +18,8 @@ const searchController = (req, res) => {
       { category:"Грузинская ", img:"http://localhost:3000/images/img_15.png" },
       { category:"Turkish", img:"http://localhost:3000/images/img_16.png" },
     ];
-    results.filter((obj)=>obj.category === req.body.category)
-    res.json({ results });
+    const data = results.filter((obj)=>obj.category === req.body.category)
+    res.json({ data });
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Что-то пошло не так" });
