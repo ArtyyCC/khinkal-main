@@ -41,3 +41,5 @@ npm run dev
 ```bash
 npm run start
 ```
+## Дизайн проект 
+[Figma] (https://www.figma.com/file/E2e0hkTFpTdrcwJ9uTyHNd/%D0%A5%D0%B8%D0%BD%D0%BA%D0%B0%D0%BB%D0%B8?type=design&node-id=0%3A1&mode=design&t=sa2FRSi0VEOtp7Q9-1)
